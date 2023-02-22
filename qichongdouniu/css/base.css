@@ -1,0 +1,21 @@
+/*css初始化: 使用bootstrap框架，他可能已经将标签的一些默认样式去掉了，这需要在
+页面调试中慢慢认识*/
+
+/* body设置字体 背景 文本颜色*/
+body {
+    font: normal normal 14px "宋体";
+    color: #4c4c4c;
+    background-color: #ffffff;
+}
+
+/*覆盖bootstrap 对a标签的样式设置*/
+a {
+    color: #4c4c4c;
+    text-decoration: none;
+}
+a:active,
+a:hover,
+a:focus {
+    color: #4c4c4c;
+    text-decoration: none;
+}
