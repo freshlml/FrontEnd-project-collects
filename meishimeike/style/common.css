@@ -1,0 +1,65 @@
+/*
+css 初始化
+	清除浏览器中html标签的默认样式,如标签的margin,padding
+ 	不同浏览器对html标签的解析样式不同，所以需要清除浏览器对标签的样式
+*/
+
+/*去除margin,padding*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*去除图片的边框*/
+fieldset,img {
+	border: 0;
+}
+/*去掉列表前面的点*/
+ul,ol {
+	list-style: none;
+}
+/*去除input的padding-top,padding-bottom,border*/
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+}
+/*去除a标签的下划线*/
+a{
+	text-decoration: none;
+}
+/*为body设置字体(样式，weight,size,字体种类)，设置文本颜色，设置背景颜色*/
+body {
+	font: normal normal 12px "宋体";
+	color: #4c4c4c;
+	background-color: #ffffff;
+}
+
+/*清除浮动*/
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+/*清除浮动：兼容IE6*/
+.clearfix{
+	zoom: 1;
+}
+
+/* 左浮动 */
+.fl {
+	float: left;
+}
+/* 右浮动 */
+.fr {
+	float: right;
+}
+
+/* font-size 20px */
+.fz-20 {
+	font-size: 20px;
+}
+

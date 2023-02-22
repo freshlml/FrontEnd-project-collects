@@ -1,0 +1,182 @@
+.top {
+	height: 47px;
+	background-color: #efe8e8;
+}
+
+@media screen and (max-width: 1000px) {
+	.top {
+		width: 1050px;
+	}
+}
+
+.center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.top .top-c {
+	height: 47px;
+	line-height: 47px;
+}
+
+.logo {
+	height: 99px;
+	background-color: #202326;
+}
+
+@media screen and (max-width: 1000px) {
+	.logo {
+		width: 1050px;
+	}
+}
+
+.logo .logo-c {
+	height: 99px;
+}
+
+.logo .logo-left {
+	float: left;
+}
+
+
+.logo .logo-left a {
+	color: #24292e;
+	display: inline-block;
+	width: 128px;
+	height: 99px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 128px 99px;
+	filter: grayscale(100%);
+}
+
+/* .logo .logo-left h1 a img {
+	filter: grayscale(100%);
+	width: 128px;
+	height: 99px;
+} */
+
+.logo .logo-center {
+	float: left;
+	width: 250px;
+	height: 28px;
+	padding: 1px;
+	background-color: #ffffff;
+	margin-top: 34px;
+	margin-left: 150px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.logo .logo-center .lc_in {
+	width: 168px;
+	height: 28px;
+	outline: none;
+	float: left;
+	padding-left: 30px;
+	background-image: url(../images/github.png);
+	background-size: 28px;
+	background-repeat: no-repeat;
+}
+
+.logo .logo-center .lc_btn {
+	width: 50px;
+	height: 28px;
+	color: #ffffff;
+	background-color: #202326;
+	float: left;
+	border-radius: 0 2px 2px 0;
+}
+
+.logo .logo-right {
+	float: right;
+	height: 30px;
+	margin-top: 34px;
+}
+
+.logo .logo-right li {
+	position: relative;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 30px;
+}
+
+.logo .logo-right li a {
+	color: #ffffff;
+}
+
+.logo .logo-right .dropdown-caret {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	vertical-align: -2px;
+	border-color: #ffffff transparent transparent;
+	border-style: solid;
+	border-width: 4px;
+}
+
+.logo .logo-right .dropdown-menu {
+	display: none;
+	z-index: 100;
+	position: absolute;
+	top: 100%;
+    left: auto;
+    right: 0;
+	width: 100px;
+	background-color: #ffffff;
+	background-clip: padding-box;
+	border: 1px solid rgba(27, 31, 35, .15);
+	border-radius: 4px;
+}
+
+
+.logo .logo-right .dropdown-menu::after {
+	display: inline-block;
+	position: absolute;
+	border: 7px solid transparent;
+    border-bottom-color: #fff;
+    top: -14px;
+    right: 10px;
+    left: auto;
+    content: "";
+}
+
+.logo .logo-right .dropdown-menu .dropdown-menu-item {
+	color: #4183C4;
+	display: block;
+	height: 20px;
+	padding: 4px 10px 4px 10px;
+	text-align: left;
+}
+
+.logo .logo-right .dropdown-menu .dropdown-menu-item:hover {
+	background-color: #4183C4;
+	color: #ffffff;
+}
+
+.foot {
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+	.foot {
+		width: 1050px;
+	}
+}
+
+.foot .foot-c {
+	height: 150px;
+	margin-top: 10px;
+	border-top: 1px solid #CDC0B0;
+}
+
+.foot .foot-c .foot-c-l {
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.foot .foot-c .foot-c-l li {
+	margin: 5px;
+}
