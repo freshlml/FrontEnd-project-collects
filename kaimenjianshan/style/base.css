@@ -1,0 +1,55 @@
+/*
+css初始化
+*/
+
+/*清除元素默认margin, padding*/
+html,body,div,ul,li,form,input,img,a,p,h3,h4 {
+	margin: 0;
+	padding: 0;
+	/*设置盒子模型*/
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/*去除图片边框*/
+img {
+	border: 0;
+}
+
+/*去掉无序列表前面的点*/
+ul {
+	list-style: none;
+}
+
+/*input 去掉边框,去掉选中高亮*/
+input {
+	border: none;
+	outline: none;
+}
+
+/*a标签去除下划线*/
+a {
+	text-decoration: none;
+}
+
+/*设置body的字体，背景，字体颜色*/
+body {
+	font: normal normal 12px "宋体";
+	color: #4c4c4c;
+	background-color: #ffffff;
+}	
+
+/*清除浮动*/
+.clearfix::after {
+	content: "";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+
+/*清除浮动：兼容IE6*/
+.clearfix{
+	zoom: 1;
+}
